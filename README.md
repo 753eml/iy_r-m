@@ -1,6 +1,6 @@
 ### Infinite Yield: Reborn with walkfling commands
 
-## Just copy this and your good to go \^o^/
+## Just copy this and your good to go ^_^
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/iyrm/refs/heads/main/iyrm.lua",true))()
 
