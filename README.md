@@ -26,4 +26,6 @@
 
 ### 04/10/2024 23:51:30 - (Minor change) (Script update) Fixed Doors command.
 
+### 04/10/2024 23:55:45 - (Major change) (Script update) Fixed script not working due to a ' in the doors command.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
