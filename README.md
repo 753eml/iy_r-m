@@ -8,7 +8,7 @@
 
 ### 27/09/2024 15:37:15 - (Major change) (Script update) Fixed Loadstring!
 
-### 27/07/2024 18:17:50 - (Script update) Fixed Infinite Yield: Reborn - Modded not loading the added commands after teleporting/rejoining a game.
+### 27/07/2024 18:17:50 - (Minor change) (Script update) Fixed Infinite Yield: Reborn - Modded not loading the added commands after teleporting/rejoining a game (With keepiy on).
 
 ### 04/10/2024 18:40:40 - (Minor change) (Website update) Rephrased a few things
 
