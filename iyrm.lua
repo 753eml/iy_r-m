@@ -1,4 +1,3 @@
--- I skidded this
 if IY_LOADED and not _G.IY_DEBUG == true then
 	Shadow = Instance.new("Frame")
 Title = Instance.new("TextLabel")
@@ -93,7 +92,7 @@ currentVersion = '6.3.5'
 Holder = Instance.new("Frame")
 Title = Instance.new("TextLabel")
 Dark = Instance.new("Frame")
-Cmdbar = Instance.new("TextBox")
+bar = Instance.new("TextBox")
 CMDsF = Instance.new("ScrollingFrame")
 cmdListLayout = Instance.new("UIListLayout")
 SettingsButton = Instance.new("ImageButton")
@@ -4871,6 +4870,7 @@ CMDs[#CMDs + 1] = {NAME = 'breakvelocity', DESC = 'Sets your characters velocity
 CMDs[#CMDs + 1] = {NAME = 'spin [speed]', DESC = 'Spins your character'}
 CMDs[#CMDs + 1] = {NAME = 'unspin', DESC = 'Disables spin'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
+CMDs[#CMDs + 1] = {NAME = 'Doors', DESC = 'Executes the doors script that combines Mspaint with a door opening sound script'}
 CMDs[#CMDs + 1] = {NAME = 'animation / anim [ID] [speed]', DESC = 'Makes your character perform an animation (must be by roblox to replicate)'}
 CMDs[#CMDs + 1] = {NAME = 'dance', DESC = 'Makes you  d a n c e'}
 CMDs[#CMDs + 1] = {NAME = 'undance', DESC = 'Stops dance animations'}
@@ -9965,6 +9965,10 @@ addcmd('freezeanims',{},function(args, speaker)
 		v:AdjustSpeed(0)
 	end
 end)
+
+addcmd('Doors',{},function (args, speaker)
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua',true))()
+	notify('Loaded\nIf it didn't load, you may not be in doors.')
 
 addcmd('unfreezeanims',{},function(args, speaker)
 	local Humanoid = speaker.Character:FindFirstChildOfClass("Humanoid") or speaker.Character:FindFirstChildOfClass("AnimationController")
