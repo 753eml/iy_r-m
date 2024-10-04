@@ -92,7 +92,7 @@ currentVersion = '6.3.5'
 Holder = Instance.new("Frame")
 Title = Instance.new("TextLabel")
 Dark = Instance.new("Frame")
-bar = Instance.new("TextBox")
+Cmdbar = Instance.new("TextBox")
 CMDsF = Instance.new("ScrollingFrame")
 cmdListLayout = Instance.new("UIListLayout")
 SettingsButton = Instance.new("ImageButton")
@@ -13497,6 +13497,7 @@ task.spawn(function()
 	end
 end)
 
+notify("Credits", 'Credits to IYR.LOL (infinite yield: reborn) and infinite yield')
 task.spawn(function()
 	task.wait()
 	Credits:TweenPosition(UDim2.new(0, 0, 0.9, 0), "Out", "Quart", 0.2)
@@ -13515,10 +13516,6 @@ task.spawn(function()
 		notify("Unstable Device", "On mobile, IY:R - M has a lot of bugs. It's recommended to use a PC executor")
 		if game.PlaceId == 574746640 then
 			task.wait(3)
-			notify("4nn1's Place", "Game Detected! Some commands were added/changed/removed")
-		end
-	else
-		if game.PlaceId == 574746640 then
 			notify("4nn1's Place", "Game Detected! Some commands were added/changed/removed")
 		end
 	end
