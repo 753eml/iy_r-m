@@ -22,4 +22,6 @@
 
 ### 04/10/2024 21:08:40 - (Minor change) (Website update) Yet another text size fix.
 
+### 04/10/2024 23:42:20 - (Minor change) (Script update) Added a command for a Doors script i combined (MSpaint + chatgpt doors sound script)
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
