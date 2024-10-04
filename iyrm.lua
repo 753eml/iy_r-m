@@ -9969,7 +9969,7 @@ end)
 addcmd('Doors',{},function (args, speaker)
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua',true))()
 	notify('Loaded\nIf it didn't load, you may not be in doors.')
-
+end)
 addcmd('unfreezeanims',{},function(args, speaker)
 	local Humanoid = speaker.Character:FindFirstChildOfClass("Humanoid") or speaker.Character:FindFirstChildOfClass("AnimationController")
 	local ActiveTracks = Humanoid:GetPlayingAnimationTracks()
