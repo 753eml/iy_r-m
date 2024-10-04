@@ -1,5 +1,7 @@
 # Infinite Yield: Reborn - Modded (IY:R - M)
 
+# -Credits to [Infinite Yield (infyiff.github.io)](https://infyiff.github.io) and [IYR.LOL](https://iyr.lol)
+
 ### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iyrm/refs/heads/main/iyrm.lua',true))()](https://raw.githubusercontent.com/753eml/iyrm/refs/heads/main/iyrm.lua)
 
 ### Changelogs:
@@ -29,5 +31,7 @@
 ### 04/10/2024 23:55:45 - (Major change) (Script Bug fix) Fixed script not working due to a ' in the doors command.
 
 ### 05/10/2024 00:22:40 - (Major change) (Script Bug fix) Finally found the cause of script not functioning - Cmdbar named bar.
+
+### 05/10/2024 00:29:45 - (Minor change) (Script update and website update) Attempting to add credit stuff (im so tired).
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
