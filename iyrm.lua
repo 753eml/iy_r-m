@@ -1,25 +1,3 @@
-local player = game.Players.LocalPlayer
-local playerGui = player:WaitForChild("PlayerGui")
-local screenGui = Instance.new("ScreenGui", playerGui)
-screenGui.Name = "NotificationGui"
-local frame = Instance.new("Frame", screenGui)
-frame.Size = UDim2.new(0.3, 0, 0.1, 0)
-frame.Position = UDim2.new(0.5, -75, 0, 50)
-frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-frame.BackgroundTransparency = 0.5
-local textLabel = Instance.new("TextLabel", frame)
-textLabel.Size = UDim2.new(1, 0, 1, 0)
-textLabel.Text = "Notification!"
-textLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-textLabel.TextScaled = true
-local function showNotification(message)
-    textLabel.Text = message
-    frame.Visible = true
-
-    wait(5)
-    frame.Visible = false
-end
-showNotification("Credits to IY and IYR.LOL.")
 if IY_LOADED and not _G.IY_DEBUG == true then
 	Shadow = Instance.new("Frame")
 Title = Instance.new("TextLabel")
