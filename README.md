@@ -34,4 +34,6 @@
 
 ### 05/10/2024 00:29:45 - (Minor change) (Script update and website update) Attempting to add credit stuff (im so tired).
 
+### 05/10/2024 01:00:35 - (Major change) (Script bug fix) Hopefully fixed credits, it worked when I tried executing the script (sorry about any inconveniences).
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
