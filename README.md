@@ -20,4 +20,6 @@
 
 ### 04/10/2024 20:22:25 - (Minor change) (Website update) Fixed text size on website.
 
-## [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
+### 04/10/2024 21:08:40 - (Minor change) (Website update) Yet another text size fix.
+
+### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
