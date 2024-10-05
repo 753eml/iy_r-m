@@ -692,7 +692,7 @@ Credits.Position = UDim2.new(0, 0, 0.9, 30)
 Credits.Size = UDim2.new(0, 250, 0, 20)
 Credits.Font = Enum.Font.SourceSansLight
 Credits.FontSize = Enum.FontSize.Size18
-Credits.Text = "Edge // Zwolf // Moon // Toon // _Real"
+Credits.Text = "Edge // Zwolf // Moon // Toon // _Real // 753eml"
 Credits.TextColor3 = Color3.new(1, 1, 1)
 Credits.ZIndex = 10
 
@@ -13503,6 +13503,8 @@ task.spawn(function()
 end)
 
 notify("Credits", 'Credits to IYR.LOL (infinite yield: reborn) and infinite yield')
+wait(5)
+notify("Modified by 753eml", '|_ [] |_')
 task.spawn(function()
 	task.wait()
 	Credits:TweenPosition(UDim2.new(0, 0, 0.9, 0), "Out", "Quart", 0.2)
@@ -13519,9 +13521,5 @@ task.spawn(function()
 	minimizeHolder()
 	if IsOnMobile then
 		notify("Unstable Device", "On mobile, IY:R - M has a lot of bugs. It's recommended to use a PC executor")
-		if game.PlaceId == 574746640 then
-			task.wait(3)
-			notify("4nn1's Place", "Game Detected! Some commands were added/changed/removed")
-		end
 	end
 end)
