@@ -1,6 +1,6 @@
 # Infinite Yield: Reborn - Modded (IY:R - M)
 
-# -Credits to [Infinite Yield (infyiff.github.io)](https://infyiff.github.io) and [IYR.LOL](https://iyr.lol)
+# Credits to [Infinite Yield (infyiff.github.io)](https://infyiff.github.io) and [IYR.LOL](https://iyr.lol)
 
 ### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iyrm/refs/heads/main/iyrm.lua',true))()](https://raw.githubusercontent.com/753eml/iyrm/refs/heads/main/iyrm.lua)
 
@@ -34,6 +34,8 @@
 
 ### 05/10/2024 00:29:45 - (Minor change) (Script update and website update) Attempting to add credit stuff (im so tired).
 
-### 05/10/2024 01:00:35 - (Major change) (Script bug fix) Hopefully fixed credits, it worked when I tried executing the script (sorry about any inconveniences).
+### 05/10/2024 01:00:35 - (Major change) (Script Bug fix) Hopefully fixed credits, it worked when I tried executing the script (sorry about any inconveniences).
+
+### 05/10/2024 14:56:50 - (Minor change) (Script update) Added [Airhub](https://github.com/Exunys/AirHub-V2) command (My reuploaded version of Exuny's Airhub V2)
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
