@@ -4,7 +4,7 @@
 
 # Works on Solara, but some commands don't work due to missing functions and lower UNC rating than other paid exploits.
 
-### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iyrm/refs/heads/main/iyrm.lua',true))()](https://raw.githubusercontent.com/753eml/iyrm/refs/heads/main/iyrm.lua)
+### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/iyrm.lua',true))()](https://raw.githubusercontent.com/753eml/iyrm/refs/heads/main/iy_r-m.lua)
 
 ### Changelogs:
 
@@ -39,5 +39,7 @@
 ### 05/10/2024 01:00:35 - (Major change) (Script Bug fix) Hopefully fixed credits, it worked when I tried executing the script (sorry about any inconveniences).
 
 ### 05/10/2024 14:56:50 - (Minor change) (Script update) Added [Airhub](https://github.com/Exunys/AirHub-V2) command (My reuploaded version of Exuny's Airhub V2)
+
+### 05/10/2024 15:51:00 - (Minor change) (Website update) Changed repository name and description.
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
