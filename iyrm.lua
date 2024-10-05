@@ -4871,7 +4871,8 @@ CMDs[#CMDs + 1] = {NAME = 'spin [speed]', DESC = 'Spins your character'}
 CMDs[#CMDs + 1] = {NAME = 'unspin', DESC = 'Disables spin'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
 CMDs[#CMDs + 1] = {NAME = 'doors', DESC = 'Executes the Doors script, that combines Mspaint with a Doors sound modification script'}
-CMDs[#CMDs + 1] = {NAME = 'airhub', DESC = 'Loads my reuploaded Exunys Airhub'}
+CMDs[#CMDs + 1] = {NAME = 'airhub', DESC = 'Loads Exunys Airhub'}
+CMDs[#CMDs + 1] = {NAME = 'arsenal', DESC = 'Loads Thunder Client Lite V2'}
 CMDs[#CMDs + 1] = {NAME = 'animation / anim [ID] [speed]', DESC = 'Makes your character perform an animation (must be by roblox to replicate)'}
 CMDs[#CMDs + 1] = {NAME = 'dance', DESC = 'Makes you  d a n c e'}
 CMDs[#CMDs + 1] = {NAME = 'undance', DESC = 'Stops dance animations'}
@@ -9974,6 +9975,10 @@ end)
 addcmd('airhub',{},function (args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/aimbot/refs/heads/main/Exunys-airhub-v2"))()
 	notify('Credits to Exuny\nLoaded AirHub V2.')
+end)
+addcmd('arsenal',{},function (args, speaker)
+	loadstring(game:HttpGet(‘https://raw.githubusercontent.com/753eml/tcl/refs/heads/main/tcl.lua’))()
+	notify('Loaded script\nIf it didnt load, you may not be in arsenal.')
 end)
 addcmd('unfreezeanims',{},function(args, speaker)
 	local Humanoid = speaker.Character:FindFirstChildOfClass("Humanoid") or speaker.Character:FindFirstChildOfClass("AnimationController")
