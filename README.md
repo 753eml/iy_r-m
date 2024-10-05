@@ -50,4 +50,6 @@
 
 ### 05/10/2024 18:48:00 - (Minor change) (Script update) Added CrowsDesire1's animation as a command (animgui).
 
+### 05/10/2024 19:30:50 - (Minor change) (Script update) Added Fling Things and People strength script as a command (ftap)
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
