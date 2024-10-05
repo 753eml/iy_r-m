@@ -4874,6 +4874,7 @@ CMDs[#CMDs + 1] = {NAME = 'doors', DESC = 'Executes the Doors script, that combi
 CMDs[#CMDs + 1] = {NAME = 'airhub', DESC = 'Loads Exunys Airhub'}
 CMDs[#CMDs + 1] = {NAME = 'arsenal', DESC = 'Loads Thunder Client Lite V2'}
 CMDs[#CMDs + 1] = {NAME = 'animgui', DESC = 'Loads CrowsDesire1 Animations'}
+CMDs[#CMDs + 1] = {NAME = 'ftap', DESC = 'Loads the Fling Things and People strength script (customizing script is in a seperate repository)'}
 CMDs[#CMDs + 1] = {NAME = 'animation / anim [ID] [speed]', DESC = 'Makes your character perform an animation (must be by roblox to replicate)'}
 CMDs[#CMDs + 1] = {NAME = 'dance', DESC = 'Makes you  d a n c e'}
 CMDs[#CMDs + 1] = {NAME = 'undance', DESC = 'Stops dance animations'}
@@ -9984,6 +9985,10 @@ end)
 addcmd('animgui',{},function (args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/anim/refs/heads/main/animations.lua"))()
 	notify('Loaded script\nIt only works on R6 Characters.\nBreaks after dying/resetting.')
+end)
+addcmd('ftap',{},function (args, speaker)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/ftap/refs/heads/main/ftap.lua"))()
+	notify('Loaded script\nIf it doesnt work, you are in the wrong game.')
 end)
 addcmd('unfreezeanims',{},function(args, speaker)
 	local Humanoid = speaker.Character:FindFirstChildOfClass("Humanoid") or speaker.Character:FindFirstChildOfClass("AnimationController")
