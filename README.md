@@ -46,4 +46,6 @@
 
 ### 05/10/2024 17:50:00 - (Minor change) (Script update) Added arsenal command, that executes [Thunder Client V2 Lite](https://discord.gg/thunderclient)
 
+### 05/10/2024 18:09:35 - (Major change) (Script Bug fix) Fixed arsenal command breaking IY:R - M
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
