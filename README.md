@@ -2,11 +2,13 @@
 
 # Credits to [Infinite Yield (infyiff.github.io)](https://infyiff.github.io) and [IYR.LOL](https://iyr.lol)
 
+# Works on Solara, but some commands don't work due to missing functions and lower UNC rating than other paid exploits.
+
 ### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iyrm/refs/heads/main/iyrm.lua',true))()](https://raw.githubusercontent.com/753eml/iyrm/refs/heads/main/iyrm.lua)
 
 ### Changelogs:
 
-### 26/09/2024 19:29:30 - (Script, Website) Release
+### 26/09/2024 19:29:30 - (Script, Website) Released!
 
 ### 27/09/2024 15:37:15 - (Major change) (Script Bug fix) Fixed Loadstring!
 
