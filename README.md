@@ -48,4 +48,6 @@
 
 ### 05/10/2024 18:09:35 - (Major change) (Script Bug fix) Fixed arsenal command breaking IY:R - M
 
+### 05/10/2024 18:48:00 - (Minor change) (Script update) Added CrowsDesire1's animation as a command (animgui).
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
