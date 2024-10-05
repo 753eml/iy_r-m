@@ -42,4 +42,6 @@
 
 ### 05/10/2024 15:51:30 - (Minor change) (Website update) Changed repository name and description.
 
+### 05/10/2024 16:03:15 - (Minor change) (Script update) Added useless "modified by me" credits
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
