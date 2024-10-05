@@ -44,4 +44,6 @@
 
 ### 05/10/2024 16:03:15 - (Minor change) (Script update) Added useless "modified by me" credits
 
+### 05/10/2024 17:50:00 - (Minor change) (Script update) Added arsenal command, that executes [Thunder Client V2 Lite](https://discord.gg/thunderclient)
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
