@@ -22,7 +22,7 @@
 
 ### 04/10/2024 19:36:00 - (Minor change) (Website update) Made the loadstring a hyperlink, incase you want to see the source! :)
 
-### 04/10/2024 20:22:25 - (Minor change) (Website Bug update) Fixed text size on website.
+### 04/10/2024 20:22:25 - (Minor change) (Website Bug fix) Fixed text size on website.
 
 ### 04/10/2024 21:08:40 - (Minor change) (Website Bug fix) Yet another text size fix.
 
