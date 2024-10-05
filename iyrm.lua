@@ -4870,7 +4870,8 @@ CMDs[#CMDs + 1] = {NAME = 'breakvelocity', DESC = 'Sets your characters velocity
 CMDs[#CMDs + 1] = {NAME = 'spin [speed]', DESC = 'Spins your character'}
 CMDs[#CMDs + 1] = {NAME = 'unspin', DESC = 'Disables spin'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'Doors', DESC = 'Executes the doors script that combines Mspaint with a door opening sound script'}
+CMDs[#CMDs + 1] = {NAME = 'doors', DESC = 'Executes the Doors script, that combines Mspaint with a Doors sound modification script'}
+CMDs[#CMDs + 1] = {NAME = 'airhub', DESC = 'Loads my reuploaded Exunys Airhub'}
 CMDs[#CMDs + 1] = {NAME = 'animation / anim [ID] [speed]', DESC = 'Makes your character perform an animation (must be by roblox to replicate)'}
 CMDs[#CMDs + 1] = {NAME = 'dance', DESC = 'Makes you  d a n c e'}
 CMDs[#CMDs + 1] = {NAME = 'undance', DESC = 'Stops dance animations'}
@@ -9968,7 +9969,11 @@ end)
 
 addcmd('Doors',{},function (args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua"))()
-	notify('Loaded\nIf it didnt load, you may not be in doors.')
+	notify('Loaded Doors scripts\nIf it didnt load, you may not be in doors.')
+end)
+addcmd('airhub',{},function (args, speaker)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/aimbot/refs/heads/main/Exunys-airhub-v2"))()
+	notify('Credits to Exuny\nLoaded AirHub V2.')
 end)
 addcmd('unfreezeanims',{},function(args, speaker)
 	local Humanoid = speaker.Character:FindFirstChildOfClass("Humanoid") or speaker.Character:FindFirstChildOfClass("AnimationController")
