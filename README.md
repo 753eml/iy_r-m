@@ -52,4 +52,6 @@
 
 ### 05/10/2024 19:30:50 - (Minor change) (Script update) Added Fling Things and People strength script as a command (ftap)
 
+### 05/10/2024 20:58:30 - (Minor change) (Script update) Made Infinite Yield: Reborn - Modded load faster by moving credits below the main script.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
