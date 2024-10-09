@@ -1,12 +1,14 @@
--- For Solara V3, Synapse X Remake and other Executors
+-- For Solara V3, Synapse X Remake, and other Executors
 -- Please name your autoexecute file after any of the possibleFiles names, and in .txt/.lua/.luau
-local currentFilePath = getfolder()
+local currentScriptPath = debug.getinfo(1).source:sub(2)
+local currentFileName = string.match(currentScriptPath, "([^/\\]+)$")
+local currentDirectory = string.match(currentScriptPath, "(.*[\\/])")
 local possibleFiles = {"iyautoload", "iy", "infinite yield", "infiniteyield", "infyield", "iyr", "infinite-yield"}
-local function isInAutoExecFile(filePath)
-    for _, fileName in ipairs(possibleFiles) do
-        if string.find(filePath:lower(), fileName:lower() .. ".lua") or
-           string.find(filePath:lower(), fileName:lower() .. ".luau") or
-           string.find(filePath:lower(), fileName:lower() .. ".txt") then
+local function isInAutoExecFile(fileName)
+    for _, fileNameWithoutExt in ipairs(possibleFiles) do
+        if fileName:lower() == fileNameWithoutExt:lower() .. ".lua" or
+           fileName:lower() == fileNameWithoutExt:lower() .. ".luau" or
+           fileName:lower() == fileNameWithoutExt:lower() .. ".txt" then
             return true
         end
     end
@@ -15,9 +17,9 @@ end
 local function isInAutoExecFolder(directory)
     return string.find(directory:lower(), "autoexec") or string.find(directory:lower(), "autoexecute")
 end
-if isInAutoExecFile(currentFilePath) and isInAutoExecFolder(currentFilePath) then
+if isInAutoExecFile(currentFileName) and isInAutoExecFolder(currentDirectory) then
     wait(3)
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/iyrm.lua', true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/iyrm.lua', true))()
 else
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/iyrm.lua', true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/iyrm.lua', true))()
 end
