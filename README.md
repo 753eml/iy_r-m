@@ -4,7 +4,7 @@
 
 # Works on Solara, but some commands don't work due to missing functions and lower UNC rating than other paid exploits.
 
-### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/iyrm.lua',true))()](https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/iyrm.lua)
+### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/autoexecsupport.lua', true))()](https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/autoexecsupport.lua)
 
 ### Changelogs:
 
@@ -53,5 +53,7 @@
 ### 05/10/2024 19:30:50 - (Minor change) (Script update) Added Fling Things and People strength script as a command (ftap)
 
 ### 05/10/2024 20:58:30 - (Minor change) (Script update) Made Infinite Yield: Reborn - Modded load faster by moving credits below the main script.
+
+### 09/10/2024 18:03:10 - (Minor change) (Script update) Hopefully made Infinite Yield: Reborn - Modded not malfunction upon teleporting to game, if in auto execution folder for executor. (Now waits an extra 3 seconds before executing)
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
