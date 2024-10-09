@@ -54,6 +54,6 @@
 
 ### 05/10/2024 20:58:30 - (Minor change) (Script update) Made Infinite Yield: Reborn - Modded load faster by moving credits below the main script.
 
-### 09/10/2024 18:03:10 - (Minor change) (Script update) Hopefully made Infinite Yield: Reborn - Modded not malfunction upon teleporting to game, if in auto execution folder for executor. (Now waits an extra 3 seconds before executing)
+### 09/10/2024 18:04:25 - (Minor change) (Script update) Hopefully made Infinite Yield: Reborn - Modded not malfunction upon teleporting to game, if in auto execution folder for executor. (Now waits an extra 3 seconds before executing, if found in an auto execution folder)
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
