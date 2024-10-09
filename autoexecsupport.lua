@@ -16,7 +16,7 @@ local function isInAutoExecFolder(directory)
     return string.find(directory:lower(), "autoexec") or string.find(directory:lower(), "autoexecute")
 end
 if isInAutoExecFile(currentFilePath) and isInAutoExecFolder(currentFilePath) then
-    wait(3)
+    wait(5)
         loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/iyrm.lua', true))()
 else
         loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/iyrm.lua', true))()
