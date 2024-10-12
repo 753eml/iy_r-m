@@ -50,7 +50,7 @@
 
 ### 05/10/2024 18:48:00 - (Minor change) (Script Update) Added CrowsDesire1's animation as a command (animgui).
 
-### 05/10/2024 19:30:50 - (Minor change) (Script Update) Added Fling Things and People strength script as a command (ftap).
+### 05/10/2024 19:30:50 - (Minor change) (Script Update) Added [Fling Things and People]() strength script as a command (ftap).
 
 ### 05/10/2024 20:58:30 - (Minor change) (Script Update) Made Infinite Yield: Reborn - Modded load faster by moving credits below the main script.
 
@@ -60,6 +60,8 @@
 
 ### 09/10/2024 18:32:15 - (Minor change) (Script Bug fix) Fixed the autoexecsupport.lua breaking script.
 
-### 12/10/2024 14:03:15 - (Minor change) (Script Update) Added Doors Beta script as command (doorsbeta)
+### 12/10/2024 14:03:15 - (Minor change) (Script Update) Added [Doors Beta](https://raw.githubusercontent.com/753eml/doorsBETA/refs/heads/main/drbeta.lua) script as command (doorsbeta)
+
+### 12/10/2024 14:16:45 - (Minor change) (Script Bug fix) Fixed script not loading at all.
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
