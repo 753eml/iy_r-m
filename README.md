@@ -66,4 +66,6 @@
 
 ### 12/10/2024 14:21:50 - (Minor change) (Script Update) Added warning in notification when loading doorsbeta about it being an unstable script.
 
+### 12/10/2024 14:27:50 - (Minor change) (Script Bug fix) Fixed doorsbeta command.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
