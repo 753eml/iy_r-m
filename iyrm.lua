@@ -4875,7 +4875,7 @@ CMDs[#CMDs + 1] = {NAME = 'airhub', DESC = 'Loads Exunys Airhub'}
 CMDs[#CMDs + 1] = {NAME = 'arsenal', DESC = 'Loads Thunder Client Lite V2'}
 CMDs[#CMDs + 1] = {NAME = 'animgui', DESC = 'Loads CrowsDesire1 Animations'}
 CMDs[#CMDs + 1] = {NAME = 'ftap', DESC = 'Loads the Fling Things and People strength script (customizing script is in a seperate repository)'}
-CMDs[#CMDs + 1] = {NAME = '', DESC = 'Loads an unstable/untested version of the Doors script I made in beta'}
+CMDs[#CMDs + 1] = {NAME = 'doorsbeta', DESC = 'Loads an unstable/untested version of the Doors script I made in beta'}
 CMDs[#CMDs + 1] = {NAME = 'animation / anim [ID] [speed]', DESC = 'Makes your character perform an animation (must be by roblox to replicate)'}
 CMDs[#CMDs + 1] = {NAME = 'dance', DESC = 'Makes you  d a n c e'}
 CMDs[#CMDs + 1] = {NAME = 'undance', DESC = 'Stops dance animations'}
