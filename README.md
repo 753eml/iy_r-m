@@ -60,4 +60,6 @@
 
 ### 09/10/2024 18:32:15 - (Minor change) (Script Bug fix) Fixed the autoexecsupport.lua breaking script.
 
+### 12/10/2024 14:03:15 - (Minor change) (Script Update) Added Doors Beta script as command (doorsbeta)
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
