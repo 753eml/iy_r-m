@@ -4875,7 +4875,7 @@ CMDs[#CMDs + 1] = {NAME = 'airhub', DESC = 'Loads Exunys Airhub'}
 CMDs[#CMDs + 1] = {NAME = 'arsenal', DESC = 'Loads Thunder Client Lite V2'}
 CMDs[#CMDs + 1] = {NAME = 'animgui', DESC = 'Loads CrowsDesire1 Animations'}
 CMDs[#CMDs + 1] = {NAME = 'ftap', DESC = 'Loads the Fling Things and People strength script (customizing script is in a seperate repository)'}
-CMDs[#CMDs + 1] = {NAME = 'doorsbeta', DESC = 'Loads an unstable/untested version of the Doors script I made in beta'}
+CMDs[#CMDs + 1] = {NAME = '', DESC = 'Loads an unstable/untested version of the Doors script I made in beta'}
 CMDs[#CMDs + 1] = {NAME = 'animation / anim [ID] [speed]', DESC = 'Makes your character perform an animation (must be by roblox to replicate)'}
 CMDs[#CMDs + 1] = {NAME = 'dance', DESC = 'Makes you  d a n c e'}
 CMDs[#CMDs + 1] = {NAME = 'undance', DESC = 'Stops dance animations'}
@@ -9993,7 +9993,7 @@ addcmd('ftap',{},function(args, speaker)
 end)
 addcmd('doorsbeta',{},function(args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/doorsBETA/refs/heads/main/drbeta.lua"))()
-	notify('Loaded script\nIf failed to load, your either in the wrong game, or you need to rejoin.')
+	notify('Warning!\nThis version of the script is unstable.\nProceed with caution.')
 end)
 addcmd('unfreezeanims',{},function(args, speaker)
 	local Humanoid = speaker.Character:FindFirstChildOfClass("Humanoid") or speaker.Character:FindFirstChildOfClass("AnimationController")
