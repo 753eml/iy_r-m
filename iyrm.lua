@@ -4870,11 +4870,12 @@ CMDs[#CMDs + 1] = {NAME = 'breakvelocity', DESC = 'Sets your characters velocity
 CMDs[#CMDs + 1] = {NAME = 'spin [speed]', DESC = 'Spins your character'}
 CMDs[#CMDs + 1] = {NAME = 'unspin', DESC = 'Disables spin'}
 CMDs[#CMDs + 1] = {NAME = '', DESC = ''}
-CMDs[#CMDs + 1] = {NAME = 'doors', DESC = 'Executes the Doors script, that combines Mspaint with a Doors sound modification script'}
+CMDs[#CMDs + 1] = {NAME = 'doors', DESC = 'Executes the Doors script, that I made, which combines Mspaint with a Doors sound modification script'}
 CMDs[#CMDs + 1] = {NAME = 'airhub', DESC = 'Loads Exunys Airhub'}
 CMDs[#CMDs + 1] = {NAME = 'arsenal', DESC = 'Loads Thunder Client Lite V2'}
 CMDs[#CMDs + 1] = {NAME = 'animgui', DESC = 'Loads CrowsDesire1 Animations'}
 CMDs[#CMDs + 1] = {NAME = 'ftap', DESC = 'Loads the Fling Things and People strength script (customizing script is in a seperate repository)'}
+CMDs[#CMDs + 1] = {NAME = 'doorsbeta', DESC = 'Loads an unstable/untested version of the Doors script I made in beta}
 CMDs[#CMDs + 1] = {NAME = 'animation / anim [ID] [speed]', DESC = 'Makes your character perform an animation (must be by roblox to replicate)'}
 CMDs[#CMDs + 1] = {NAME = 'dance', DESC = 'Makes you  d a n c e'}
 CMDs[#CMDs + 1] = {NAME = 'undance', DESC = 'Stops dance animations'}
@@ -9970,25 +9971,29 @@ addcmd('freezeanims',{},function(args, speaker)
 	end
 end)
 
-addcmd('Doors',{},function (args, speaker)
+addcmd('Doors',{},function(args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/drs/refs/heads/main/drs.lua"))()
 	notify('Loaded Doors scripts\nIf it didnt load, you may not be in doors.')
 end)
-addcmd('airhub',{},function (args, speaker)
+addcmd('airhub',{},function(args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/aimbot/refs/heads/main/Exunys-airhub-v2.lua"))()
 	notify('Credits to Exuny\nLoaded AirHub V2.')
 end)
-addcmd('arsenal',{},function (args, speaker)
+addcmd('arsenal',{},function(args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/tcl/refs/heads/main/tcl.lua"))()
 	notify('Loaded script\nIf it didnt load, you may not be in arsenal.')
 end)
-addcmd('animgui',{},function (args, speaker)
+addcmd('animgui',{},function(args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/anim/refs/heads/main/animations.lua"))()
 	notify('Loaded script\nIt only works on R6 Characters.\nBreaks after dying/resetting.')
 end)
-addcmd('ftap',{},function (args, speaker)
+addcmd('ftap',{},function(args, speaker)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/ftap/refs/heads/main/ftap.lua"))()
 	notify('Loaded script\nIf it doesnt work, you are in the wrong game.')
+end)
+addcmd('doorsbeta',{},function(args, speaker)
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/doorsBETA/refs/heads/main/drbeta.lua"))()
+	notify('Loaded script\nIf failed to load, your either in the wrong game, or you need to rejoin.')
 end)
 addcmd('unfreezeanims',{},function(args, speaker)
 	local Humanoid = speaker.Character:FindFirstChildOfClass("Humanoid") or speaker.Character:FindFirstChildOfClass("AnimationController")
