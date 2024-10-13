@@ -70,10 +70,10 @@
 
 ### 12/10/2024 14:27:50 - (Minor change) (Script Bug fix) Fixed doorsbeta command.
 
-### 13/10/2024 18:07:00 - (Minor change) (Script Update) Updated the previously added broken [MoreUNC](https://raw.githubusercontent.com/753eml/UNC/refs/heads/main/MoreUNC.lua) script. Website: [https://753eml.github.io/UNC/](https://753eml.github.io/UNC/)
+### 13/10/2024 18:07:00 - (Minor change) (Script Update) Updated the previously added broken [MoreUNC](https://raw.githubusercontent.com/753eml/UNC/refs/heads/main/MoreUNC.lua) script. Website: [https://753eml.github.io/UNC/](https://753eml.github.io/UNC/).
 
 ### 13/10/2024 18:13:30 - (Minor change) (Script Update) Updated version to 6.5.0 (where we are now).
 
-### 13/10/2024 18:18:00 - (Minor change) (Website Update) Added more hyperlinks to Changelogs. Reminder: Website Updates dont count as a Script version change.
+### 13/10/2024 18:18:00 - (Minor change) (Website Update) Added more hyperlinks to Changelogs. Reminder: Website Updates don't count as a Script version change!
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
