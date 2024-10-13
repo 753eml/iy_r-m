@@ -88,7 +88,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-currentVersion = '6.3.5'
+currentVersion = '6.5.0'
 Holder = Instance.new("Frame")
 Title = Instance.new("TextLabel")
 Dark = Instance.new("Frame")
@@ -278,7 +278,6 @@ Title.Size = UDim2.new(0, 250, 0, 20)
 Title.Font = Enum.Font.SourceSans
 Title.TextSize = 18
 if os.date("*t", os.time()).month == 4 then
-	-- This is a reminder how EdgeIY edgy was
 	Title.Text = "Infinite Yiff v"  .. currentVersion
 else
 	Title.Text = "IY:R - M v"  .. currentVersion
@@ -13422,12 +13421,6 @@ local function iyonloadstuff(shouldpopupannouncement)
 		local versionJson = game:HttpGet('https://storage.iyr.lol/legacy-iyr/version')
 		return HttpService:JSONDecode(versionJson)
 	end)
-
-	if success then
-		if currentVersion ~= latestVersionInfo.Version then
-			notify('Outdated','Get the new version by executing it again (or rejoin if keepiy is enabled)')
-		end
-
 		if shouldpopupannouncement then
 			if latestVersionInfo.Announcement and latestVersionInfo.Announcement ~= '' then
 				local AnnGUI = Instance.new("Frame")
