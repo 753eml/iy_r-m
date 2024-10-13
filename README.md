@@ -78,4 +78,6 @@
 
 ### 13/10/2024 18:51:00 - (Minor change) (Script and Website Update) Fixed Version checking and updated script to 6.5.1.
 
+### 13/10/2024 20:53:00 - (Minor change) (Script and Update) Removed annoying "Server Announcement" notification at the top of the screen, when executing the script.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
