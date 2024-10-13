@@ -76,4 +76,6 @@
 
 ### 13/10/2024 18:18:00 - (Minor change) (Website Update) Added more hyperlinks to Changelogs. Reminder: Website Updates don't count as a Script version change!
 
+### 13/10/2024 18:51:00 - (Minor change) (Script and Website Update) Fixed Version checking and updated script to 6.5.1.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
