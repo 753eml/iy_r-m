@@ -4,6 +4,8 @@
 
 # Works on Solara, but some commands don't work due to missing functions and lower UNC rating than other paid exploits.
 
+# Website: [https://753eml.github.io/iy_r-m](https://753eml.github.io/iy_r-m)
+
 ### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/autoexecsupport.lua', true))()](https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/autoexecsupport.lua)
 
 ### Changelogs:
@@ -26,7 +28,7 @@
 
 ### 04/10/2024 21:08:40 - (Minor change) (Website Bug fix) Yet another text size fix.
 
-### 04/10/2024 23:42:20 - (Minor change) (Script Update) Added a command for a Doors script i combined (MSpaint + chatgpt doors sound script).
+### 04/10/2024 23:42:20 - (Minor change) (Script Update) Added a command for a [Doors](https://753eml.github.io/doors/) script i combined (MSpaint + chatgpt doors sound script).
 
 ### 04/10/2024 23:51:30 - (Minor change) (Script Bug fix) Fixed Doors command.
 
@@ -48,9 +50,9 @@
 
 ### 05/10/2024 18:09:35 - (Major change) (Script Bug fix) Fixed arsenal command breaking IY:R - M.
 
-### 05/10/2024 18:48:00 - (Minor change) (Script Update) Added CrowsDesire1's animation as a command (animgui).
+### 05/10/2024 18:48:00 - (Minor change) (Script Update) Added [CrowsDesire1's animations](https://753eml.github.io/anim/) as a command (animgui).
 
-### 05/10/2024 19:30:50 - (Minor change) (Script Update) Added [Fling Things and People]() strength script as a command (ftap).
+### 05/10/2024 19:30:50 - (Minor change) (Script Update) Added [Fling Things and People](https://753eml.github.io/ftap/) strength script as a command (ftap).
 
 ### 05/10/2024 20:58:30 - (Minor change) (Script Update) Made Infinite Yield: Reborn - Modded load faster by moving credits below the main script.
 
@@ -71,5 +73,7 @@
 ### 13/10/2024 18:07:00 - (Minor change) (Script Update) Updated the previously added broken [MoreUNC](https://raw.githubusercontent.com/753eml/UNC/refs/heads/main/MoreUNC.lua) script.
 
 ### 13/10/2024 18:13:30 - (Minor change) (Script Update) Updated version to 6.5.0 (where we are now).
+
+### 13/10/2024 18:18:00 - (Minor change) (Website Update) Added more hyperlinks to Changelogs. Reminder: Website Updates dont count as a Script version change.
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
