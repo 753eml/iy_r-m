@@ -88,7 +88,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-currentVersion = '6.5.0'
+currentVersion = '6.5.1'
 Holder = Instance.new("Frame")
 Title = Instance.new("TextLabel")
 Dark = Instance.new("Frame")
@@ -4557,7 +4557,7 @@ CMDs = {}
 CMDs[#CMDs + 1] = {NAME = 'discord / dc', DESC = 'Invite to the Discord server.'}
 CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads old Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'unc / unctest / unccheckevn', DESC = 'Tests all UNC Environment'}
-CMDs[#CMDs + 1] = {NAME = 'addunc / add / adduncevn', DESC = 'Adds some UNC Environment(s)'}
+CMDs[#CMDs + 1] = {NAME = 'addunc / addmoreunc / adduncevn', DESC = 'Adds some UNC Environment(s)'}
 CMDs[#CMDs + 1] = {NAME = 'execute / run / code', DESC = 'Execute a LuaU code.'}
 CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'secureexplorer / securedex / bypasseddex', DESC = 'Opens Bypassed DEX by HamstaGang'}
@@ -13418,9 +13418,13 @@ IYMouse.Move:Connect(checkTT)
 
 local function iyonloadstuff(shouldpopupannouncement)
 	local success, latestVersionInfo = pcall(function() 
-		local versionJson = game:HttpGet('https://storage.iyr.lol/legacy-iyr/version')
+		local versionJson = game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/version.lua')
 		return HttpService:JSONDecode(versionJson)
 	end)
+	if success then
+		if currentVersion ~= latestVersionInfo.Version then
+			notify('Outdated','Get the new version by executing it again (or rejoin if keepiy is enabled)')
+		end
 		if shouldpopupannouncement then
 			if latestVersionInfo.Announcement and latestVersionInfo.Announcement ~= '' then
 				local AnnGUI = Instance.new("Frame")
