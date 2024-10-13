@@ -68,4 +68,6 @@
 
 ### 12/10/2024 14:27:50 - (Minor change) (Script Bug fix) Fixed doorsbeta command.
 
+### 13/10/2024 18:07:00 - (Minor change) (Script Update) Updated the previously added broken [MoreUNC](https://raw.githubusercontent.com/753eml/UNC/refs/heads/main/MoreUNC.lua) script.
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
