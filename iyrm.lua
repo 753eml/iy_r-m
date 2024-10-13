@@ -4558,7 +4558,7 @@ CMDs = {}
 CMDs[#CMDs + 1] = {NAME = 'discord / dc', DESC = 'Invite to the Discord server.'}
 CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads old Roblox console'}
 CMDs[#CMDs + 1] = {NAME = 'unc / unctest / unccheckevn', DESC = 'Tests all UNC Environment'}
-CMDs[#CMDs + 1] = {NAME = 'addunc / addmoreunc / adduncevn', DESC = 'Adds some UNC Environment(s)'}
+CMDs[#CMDs + 1] = {NAME = 'addunc / add / adduncevn', DESC = 'Adds some UNC Environment(s)'}
 CMDs[#CMDs + 1] = {NAME = 'execute / run / code', DESC = 'Execute a LuaU code.'}
 CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Moon'}
 CMDs[#CMDs + 1] = {NAME = 'secureexplorer / securedex / bypasseddex', DESC = 'Opens Bypassed DEX by HamstaGang'}
@@ -10916,8 +10916,8 @@ addcmd("unc",{"unctest","unccheckevn"},function(args, speaker)
 end)
 
 addcmd("addunc", {'addmoreunc', 'adduncevn'}, function(args, speaker)
-	loadstring(game:HttpGet("https://github.com/FurryBoyYT/moreunc/raw/main/iyr_init"))()
-    notify("Adding some UNC (Thanks to the community) (WARNING THIS MAY REMOVE SOME UNC)")
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/UNC/refs/heads/main/MoreUNC.lua"))()
+	notify("Adding some UNC (Thanks to MoreUNC and SaladUNC!)")
 end)
 
 
