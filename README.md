@@ -80,4 +80,6 @@
 
 ### 13/10/2024 20:53:00 - (Minor change) (Script and Update) Removed annoying "Server Announcement" notification at the top of the screen, when executing the script.
 
+### 14/10/2024 16:15:35 - (Minor change) (Script Update and Bug fix) Fixed DoorsBETA command being blank and changed a bit of grammar. (6.5.3)
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
