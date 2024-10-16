@@ -84,4 +84,6 @@
 
 ### 16/10/2024 09:59:10 - (Major change) (Script Update) Attempted to make IY:R-M undetected by anti-scripts. (6.5.4)
 
+### 16/10/2024 10:06:30 - (Minor change) (Script Bug fix) Tried to fix hidden CoreGUI. (6.5.5)
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
