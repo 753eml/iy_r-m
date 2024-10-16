@@ -88,4 +88,6 @@
 
 ### 16/10/2024 10:28:20 - (Minor change) (Script Update) Another attempt at adding proxy to CoreGUI. (6.5.7)
 
+### 16/10/2024 10:45:25 - (Minor change) (Script Bug fix) Attempt to fix checkTT function. (6.5.8)
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
