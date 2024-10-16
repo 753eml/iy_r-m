@@ -90,4 +90,6 @@
 
 ### 16/10/2024 10:45:25 - (Minor change) (Script Bug fix) Attempt to fix checkTT function. (6.5.8)
 
+### 16/10/2024 10:53:50 - (Minor change) (Script Bug fix) Fixed Locate command by returning to originalcoregui function. (6.5.9)
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
