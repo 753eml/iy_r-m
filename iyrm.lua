@@ -77,13 +77,14 @@ pcall(function() getgenv().IY_LOADED = true end)
 local Players = game:GetService("Players")
 local originalCoreGui = game:GetService("CoreGui")
 
--- CoreGui Proxy fix test
+-- Create a proxy table
 local COREGUI = {}
-function COREGUI:GetChildren()
-    return originalCoreGui:GetChildren()
-end
-function COREGUI:FindFirstChild(name)
-    return originalCoreGui:FindFirstChild(name)
+
+-- Dynamically create methods for the proxy
+for _, method in ipairs({"GetChildren", "FindFirstChild"}) do
+    COREGUI[method] = function(...)
+        return originalCoreGui[method](originalCoreGui, ...)
+    end
 end
 if not game:IsLoaded() then
 	local notLoaded = Instance.new("Message")
