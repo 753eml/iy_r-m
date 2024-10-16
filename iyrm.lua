@@ -76,21 +76,22 @@ end
 pcall(function() getgenv().IY_LOADED = true end)
 local cloneref = cloneref or function(o) return o end
 local Players = game:GetService("Players")
-
--- Hidden CoreGui storage
-local hiddenStorage = Instance.new("Folder", game.Workspace)
+-- Create hidden storage for CoreGui elements
+local hiddenStorage = Instance.new("Folder", game.Workspace) -- Hidden elements in Workspace folder
 hiddenStorage.Name = "HiddenCoreGui"
-
--- Move CoreGui elements to workspace folder in executor
 for _, element in pairs(game.CoreGui:GetChildren()) do
-    element.Parent = hiddenStorage
-    element.Visible = false
+    if element:IsA("GuiObject") then -- Check if the element is a GUI object
+        element.Parent = hiddenStorage -- Move to hidden storage
+        element.Visible = true
+    else
+        element.Parent = hiddenStorage -- Move non-GUI elements
+    end
 end
-
--- CoreGui proxy
+-- CoreGUI Spoofing
 local COREGUI = cloneref(function()
-    return hiddenStorage
+    return hiddenStorage -- Return the hidden CoreGui
 end)
+
 if not game:IsLoaded() then
 	local notLoaded = Instance.new("Message")
 	notLoaded.Parent = COREGUI
@@ -100,7 +101,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-currentVersion = '6.5.4'
+currentVersion = '6.5.5'
 Holder = Instance.new("Frame")
 Title = Instance.new("TextLabel")
 Dark = Instance.new("Frame")
