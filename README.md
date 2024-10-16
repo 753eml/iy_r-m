@@ -82,4 +82,6 @@
 
 ### 14/10/2024 16:15:35 - (Minor change) (Script Update and Bug fix) Fixed DoorsBETA command being blank and changed a bit of grammar. (6.5.3)
 
+### 16/10/2024 09:59:10 - (Major change) (Script Update) Attempted to make IY:R-M undetected by anti-scripts. (6.5.4)
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
