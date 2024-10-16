@@ -74,11 +74,23 @@ Shadow:Destroy()
 end
 
 pcall(function() getgenv().IY_LOADED = true end)
-
 local cloneref = cloneref or function(o) return o end
-COREGUI = cloneref(game:GetService("CoreGui"))
-Players = cloneref(game:GetService("Players"))
+local Players = game:GetService("Players")
 
+-- Hidden CoreGui storage
+local hiddenStorage = Instance.new("Folder", game.Workspace)
+hiddenStorage.Name = "HiddenCoreGui"
+
+-- Move CoreGui elements to workspace folder in executor
+for _, element in pairs(game.CoreGui:GetChildren()) do
+    element.Parent = hiddenStorage
+    element.Visible = false
+end
+
+-- CoreGui proxy
+local COREGUI = cloneref(function()
+    return hiddenStorage
+end)
 if not game:IsLoaded() then
 	local notLoaded = Instance.new("Message")
 	notLoaded.Parent = COREGUI
