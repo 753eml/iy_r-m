@@ -1,5 +1,5 @@
--- For Solara V3, Synapse X Remake, and other Executors
--- Please name your autoexecute file after any of the possibleFiles names, and in .txt/.lua/.luau
+-- For Solara V3 and other Executors
+-- Please name your autoexecute file after any of the possibleFiles names, and in .txt/.lua/.luau file extensions.
 local currentScriptPath = debug.getinfo(1).source:sub(2)
 local currentFileName = string.match(currentScriptPath, "([^/\\]+)$")
 local currentDirectory = string.match(currentScriptPath, "(.*[\\/])")
