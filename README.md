@@ -86,4 +86,6 @@
 
 ### 16/10/2024 10:06:30 - (Minor change) (Script Bug fix) Tried to fix hidden CoreGUI. (6.5.5, 6.5.6)
 
+### 16/10/2024 10:28:20 - (Minor change) (Script Update) Another attempt at adding proxy to CoreGUI
+
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
