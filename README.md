@@ -72,7 +72,7 @@
 
 ### 12/10/2024 14:27:50 - (Minor change) (Script Bug fix) Fixed doorsbeta command.
 
-### 13/10/2024 18:07:00 - (Minor change) (Script Update) Updated the previously added broken [MoreUNC](https://raw.githubusercontent.com/753eml/UNC/refs/heads/main/MoreUNC.lua) script. Website: [https://753eml.github.io/UNC/](https://753eml.github.io/UNC/).
+### 13/10/2024 18:07:00 - (Minor change) (Script Update) Updated the previously added broken [MoreUNC](https://753eml.github.io/UNC/) script.
 
 ### 13/10/2024 18:13:30 - (Minor change) (Script Update) Updated version to 6.5.0 (where we are now).
 
@@ -93,5 +93,7 @@
 ### 16/10/2024 10:45:25 - (Minor change) (Script Bug fix) Attempt to fix checkTT function. (6.5.8)
 
 ### 16/10/2024 10:53:50 - (Minor change) (Script Bug fix) Fixed Locate command by returning to originalcoregui function. (6.5.9)
+
+### 18/10/2024 20:44:00 - (Minor change) (Script Update) Changed UNC test script to my UNC repository. (6.6.0).
 
 ### [https://753eml.github.io](https://753eml.github.io) for other info/stuff!
