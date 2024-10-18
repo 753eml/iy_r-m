@@ -95,7 +95,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-currentVersion = '6.5.9'
+currentVersion = '6.6.0'
 Holder = Instance.new("Frame")
 Title = Instance.new("TextLabel")
 Dark = Instance.new("Frame")
@@ -10917,7 +10917,7 @@ addcmd('console',{},function(args, speaker)
 end)
 
 addcmd("unc",{"unctest","unccheckevn"},function(args, speaker)
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/unified-naming-convention/NamingStandard/main/UNCCheckEnv.lua"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/753eml/UNC/refs/heads/main/unccheck.lua"))()
 	notify("Check console", "Press F9 or type /console in chat to see results")
 end)
 
