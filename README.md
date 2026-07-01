@@ -2,7 +2,7 @@
 
 # Full Credits to [Infinite Yield (infyiff.github.io)](https://infyiff.github.io) and [IYR.LOL](https://iyr.lol)
 
-# Sorry, but the beta version severely needs to catch up on the latest changes, thus the current deployment will stay on hold (for now).
+# The beta version severely needs to catch up on the latest changes, thus the current deployment will stay on hold (for now).
 
 ### Loadstring: [loadstring(game:HttpGet('https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/autoexecsupport.lua', true))()](https://raw.githubusercontent.com/753eml/iy_r-m/refs/heads/main/autoexecsupport.lua)
 
